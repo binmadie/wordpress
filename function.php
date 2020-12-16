@@ -8,3 +8,5 @@ function delete_all_attached_media( $post_id ) {
 		}
 	}
 }
+// Khung soạn thảo cơ bản trong wordpress
+add_filter('use_block_editor_for_post', '__return_false');
