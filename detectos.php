@@ -1,5 +1,5 @@
 <?PHP
-//Biến phát hiện thiết bị
+//Kiểm tra thiết bị
 $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
 $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
 $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
